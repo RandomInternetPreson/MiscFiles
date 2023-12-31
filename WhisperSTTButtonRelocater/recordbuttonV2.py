@@ -4,7 +4,7 @@ def create_ui():
     # ... [rest of the existing code prior to the generate-stop-container] ...
 
     with gr.Row(elem_id='generate-stop-container'):
-        with gr.Column():
+        with gr.Row():
             shared.gradio['Stop'] = gr.Button('Stop', elem_id='stop', visible=False)
             shared.gradio['Generate'] = gr.Button('Generate', elem_id='Generate', variant='primary')
             # New "RecD" button
