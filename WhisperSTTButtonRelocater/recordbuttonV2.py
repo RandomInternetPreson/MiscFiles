@@ -32,5 +32,4 @@ def create_ui():
     # Define all other elements, interactions, and layout as per your original code
     # ...
 
-# Don't forget to call create_ui() to build the interface
-create_ui()
+
